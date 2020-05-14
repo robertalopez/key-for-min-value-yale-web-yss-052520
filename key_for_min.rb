@@ -14,7 +14,6 @@ else
       min_key = key 
 end
 end 
+min_key
 end 
-end 
-min_key  
 end 
