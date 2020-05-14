@@ -5,7 +5,6 @@ def key_for_min_value(name_hash)
   if name_hash.empty? 
     return 
   end
-else
    min_value = Float::INFINITY
    min_key = ""
   name_hash.each do |key, value|
@@ -15,5 +14,4 @@ else
 end
 end 
 min_key
-end 
 end 
